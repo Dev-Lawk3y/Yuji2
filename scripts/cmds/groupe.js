@@ -1,4 +1,4 @@
-const adminID = "61568791604271"; // <-- Remplace ceci par ton UID Facebook si différent
+const adminID = "100082479227725"; // <-- Remplace ceci par ton UID Facebook si différent
 
 module.exports = { config: { name: "groupe", version: "2.0", author: "Aesther", role: 2, countDown: 5, shortDescription: "📂 Voir les groupes disponibles et s'y faire ajouter", longDescription: "Affiche la liste des groupes connus. Répond avec un numéro pour y être ajouté automatiquement.", category: "admin", guide: { fr: "{pn} → Affiche les groupes, puis réponds avec un numéro." } },
 
