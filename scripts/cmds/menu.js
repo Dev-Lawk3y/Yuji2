@@ -1,7 +1,7 @@
 module.exports = {
   config: {
     name: "menu",
-    aliases: ["help2", "commands"],
+    aliases: ["help", "commands"],
     version: "2.0",
     author: "nexo_here",
     shortDescription: "Show all available commands",
@@ -30,7 +30,7 @@ module.exports = {
 
       const { name, description, category, guide, author, version, aliases } = cmd.config;
       return message.reply(
-        `✨ Command Information:\n` +
+        `✨ Rico Command Information:\n` +
         `• Name: ${name}\n` +
         `• Description: ${description || "No description"}\n` +
         `• Category: ${category}\n` +
@@ -53,7 +53,7 @@ module.exports = {
       "others": "📁"
     };
 
-    let msg = "📜 Help Menu\nHere are the available commands:\n\n";
+    let msg = "📜 Rico Help Menu\nHere are the available commands:\n\n";
 
     for (const cat of Object.keys(categories).sort()) {
       msg += `${emojiMap[cat] || "📁"} ${capitalize(cat)}:\n`;
