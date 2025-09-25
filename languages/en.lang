@@ -81,40 +81,41 @@ loadScripts.NOT_FOUND=NOT FOUND IN THE ORIGINAL SOURCE CODE:
 loadScripts.NOT_MATCH=DOES NOT MATCH THE ORIGINAL SOURCE CODE:
 
 # bot/login/socketIO.js
-socketIO.connected= 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳 𝚃𝙾 𝚂𝙾𝙲𝙺𝙴𝚃.𝙸𝙾 𝚂𝙴𝚁𝚅𝙴𝚁Connected to socket.io server
-socketIO.error= 𝙰𝚗 𝙴𝚁𝚁𝙾𝚁 𝙾𝙲𝙲𝚄𝚁𝚁𝙴𝙳 𝚆𝙷𝙴𝙽 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙽𝙶 𝚃𝙾 𝚃𝙷𝙴 𝚂𝙾𝙲𝙺𝙴𝚃.𝙸𝙾 𝚂𝙴𝚁𝚅𝙴𝚁
+socketIO.connected=Connected to socket.io server
+socketIO.error=An error occurred when connecting to the socket.io server
 
 # bot/handler/handlerCheckData.js
-handlerCheckData.cantCreateThread=𝙶𝚁𝙾𝚄𝙿𝚂 𝚆𝙸𝚃𝙷 𝙸𝙳 '%1' 𝙲𝙰𝙽𝙽𝙾𝚃 𝙱𝙴 𝚆𝚁𝙸𝚃𝚃𝙴𝙽 𝚃𝙾 𝚃𝙷𝙴 BÄŸĴÏĐ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 !
-handlerCheckData.cantCreateUser=𝚄𝚂𝙴𝚁 𝚆𝙸𝚃𝙷 𝙸𝙳 '%1'  𝙲𝙰𝙽𝙽𝙾𝚃 𝙱𝙴 𝚆𝚁𝙸𝚃𝚃𝙴𝙽 𝚃𝙾 𝚃𝙷𝙴 BÄŸĴÏĐ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴!
+handlerCheckData.cantCreateThread=Groups with id '%1' cannot be written to the database!
+handlerCheckData.cantCreateUser=Users with id '%1' cannot be written to the database!
 
 # bot/handler/handlerEvents.js
-handlerEvents.userBanned= ⚠️ ||⇨ 𝐘𝐨𝐮 𝐡𝐚𝐯𝐞 𝐛𝐚𝐧𝐧𝐞𝐝 𝐅𝐫𝐨𝐦 𝐭𝐡𝐢𝐬 𝐬𝐞𝐫𝐯𝐞𝐫 𝐩𝐥𝐞𝐚𝐬𝐞 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐚𝐝𝐦𝐢𝐧 𝐈 𝐦𝐞𝐚𝐧 𝐀𝐲𝐚𝐚𝐧 \n☞︎︎︎ 𝐑𝐞𝐚𝐬𝐨𝐧: %1\n☞︎︎︎  𝐓𝐢𝐦𝐞: %2\n☞︎︎︎ 𝐔𝐬𝐞𝐫 𝐈𝐝: %3
-handlerEvents.threadBanned= ⚠️ ||⇨ 𝐓𝐡𝐢𝐬 𝐠𝐫𝐨𝐮𝐩 𝐛𝐚𝐧𝐧𝐞𝐝 𝐟𝐫𝐨𝐦 𝐒𝐩𝐈𝐝𝐞𝐘 \n☞︎︎︎ 𝐑𝐞𝐚𝐬𝐨𝐧: %1\n☞︎︎︎ 𝐓𝐢𝐦𝐞: %2\n☞︎︎︎ 𝐓𝐡𝐫𝐞𝐚𝐝 𝐢𝐝: %3
-handlerEvents.onlyAdminBox= ⚠️ ||⇨𝐓𝐡𝐢𝐬 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐨𝐧 𝐚𝐝𝐦𝐢𝐧 𝐦𝐨𝐝𝐞 𝐧𝐨𝐰
-handlerEvents.onlyAdminBot=⚠️ ||⇨ 𝐜𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐛𝐨𝐭
-handlerEvents.commandNotFound= ⚠️ ||⇨ 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐞𝐱𝐢𝐱𝐭 𝐭𝐡𝐢𝐬 "%1" 𝐂𝐨𝐦𝐦𝐚𝐧𝐝
-handlerEvents.commandNotFound2= ⚠️ ||⇨𝐓𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐞𝐱𝐢𝐬𝐭
-handlerEvents.commandSyntaxError=⚠️ ||⇨ 𝐓𝐡𝐞 𝐜𝐦𝐝 𝐚𝐫𝐞 𝐲𝐨𝐮 𝐮𝐬𝐢𝐧𝐠 𝐢𝐬 𝐰𝐫𝐨𝐧𝐠 𝐬𝐲𝐧𝐭𝐚𝐱. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐭𝐲𝐩𝐞 %1Help%2 𝐓𝐨 𝐒𝐞𝐞 𝐭𝐡𝐞 𝐃𝐞𝐭𝐚𝐥𝐥𝐬 𝐨𝐟, 𝐀𝐥𝐥 𝐜𝐦𝐝𝐬 𝐚𝐧𝐝 𝐡𝐨𝐰 𝐭𝐨 𝐮𝐬𝐞 𝐜𝐦𝐝
-handlerEvents.onlyAdmin=⚠️ ||⇨ 𝐨𝐧𝐥𝐲 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐦𝐝 "%1"
-handlerEvents.onlyAdminToUseOnReply=⚠️ ||⇨ 𝐨𝐧𝐥𝐲 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐦𝐝 "%1"
-handlerEvents.onlyAdminToUseOnReaction=⚠️ ||⇨ 𝐎𝐧𝐥𝐲 𝐆𝐫𝐨𝐮𝐩 𝐀𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐑𝐑𝐀𝐂𝐓𝐈𝐎𝐌 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 𝐓𝐡𝐞 𝐂𝐦𝐝  "%1"
-handlerEvents.onlyAdminBot2=⚠️ ||⇨𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐀𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
-handlerEvents.onlyAdminBot2ToUseOnReply=⚠️ ||⇨𝐎𝐧𝐥𝐲 𝐛𝐨𝐭 𝐚𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐓𝐡𝐞 𝐫𝐞𝐩𝐥𝐲 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 𝐭𝐡𝐞 𝐂𝐦𝐝 "%1"
-handlerEvents.onlyAdminBot2ToUseOnReaction=⚠️ ||⇨𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐀𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝  "%1"
-handlerEvents.waitingForCommand=⚠️ ||⇨ 𝐘𝐨𝐮 𝐚𝐫𝐞 𝐢𝐧 𝐭𝐡𝐞 𝐰𝐚𝐢𝐭𝐢𝐧𝐠 𝐭𝐢𝐦𝐞 𝐭𝐨 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐢𝐬 𝐜𝐦𝐝 𝐚𝐟𝐭𝐞𝐫 %1\n𝑵𝑶𝑵 𝑴𝑨𝑰𝑺 𝑲𝑺𝑲 𝑫𝑼 𝐒𝐩𝐚𝐦 𝑻'𝑬𝑺 𝑩𝑬̂𝑻𝑬 𝑶𝑼 𝑸𝑼𝑶𝑰?🤬
-handlerEvents.errorOccurred=⚠️ [ %1 ]\n𝙰𝚗 𝙴𝚁𝚁𝙾𝚁 𝙾𝙲𝙲𝚄𝚁𝚁𝙴𝙳 𝙰𝚃 𝙲𝙼𝙳 "%2"\n\n%3
-handlerEvents.errorOccurred2=⚠️ [ %1 ]\n𝙰𝚗 𝙴𝚁𝚁𝙾𝚁 𝙾𝙲𝙲𝚄𝚁𝚁𝙴 𝙰𝚃 𝙲𝙼𝙳 𝙾𝙽𝙲𝙷𝙰𝚃 "%2"\n\n%3
-handlerEvents.errorOccurred3=⚠️ [ %1 ]\n𝙰𝚗 𝙴𝚁𝚁𝙾𝚁 𝙾𝙲𝙲𝚄𝚁𝚁𝙴 𝚆𝙷𝙴𝙽 𝙴𝚇𝙴𝙲𝚄𝚃𝙸𝙽𝙶 𝙾𝙽𝚁𝙴𝙿𝙻𝚈 𝙰𝚃 𝙲𝙼𝙳"%2"\n\n%3
-handlerEvents.errorOccurred4=⚠️ [ %1 ]\n𝚗 𝙴𝚁𝚁𝙾𝚁 𝙾𝙲𝙲𝚄𝚁𝚁𝙴 𝚆𝙷𝙴𝙽 𝙴𝚇𝙴𝙲𝚄𝚃𝙸𝙽𝙶 𝙾𝙽𝙰𝚁𝙴𝙰𝙲𝚃𝙸𝙾𝙽 𝙰𝚃 𝙲𝙼𝙳"%2"\n\n%3
-handlerEvents.errorOccurred5=⚠️ [ %1 ]\n𝙰𝚗 𝙴𝚁𝚁𝙾𝚁 𝙾𝙲𝙲𝚄𝚁𝚁𝙴 𝚆𝙷𝙴𝙽 𝙴𝚇𝙴𝙲𝚄𝚃𝙸𝙽𝙶 𝙾𝙽𝙴𝚅𝙴𝙽𝚃 𝙰𝚃 𝙲𝙼𝙳 "%2"\n\n%3
-handlerEvents.errorOccurred6=⚠️ [ %1 ]\n𝚗 𝙴𝚁𝚁𝙾𝚁 𝙾𝙲𝙲𝚄𝚁𝚁𝙴 𝚆𝙷𝙴𝙽 𝙴𝚇𝙴𝙲𝚄𝚃𝙸𝙽𝙶 𝙾𝙽𝙴𝚅𝙴𝙽𝚃 𝙰𝚃 𝙲𝙼𝙳 "%2"\n\n%3
-handlerEvents.errorOccurred7=⚠️ [ %1 ]\n𝙰𝚗 𝙴𝚁𝚁𝙾𝚁 𝙾𝙲𝙲𝚄𝚁𝚁𝙴 𝚆𝙷𝙴𝙽 𝙴𝚇𝙴𝙲𝚄𝚃𝙸𝙽𝙶 𝙾𝙽𝙰𝙽𝚈𝙴𝚅𝙴𝙽𝚃 𝙰𝚃 𝙲𝙼𝙳"%2"\n\n%3
-handlerEvents.cannotFindCommandName=⚠️ 𝙲𝙰𝙽𝙽𝙾𝚃 𝙵𝙸𝙽𝙳 𝙲𝙼𝙳 𝚃𝙾 𝙴𝚇𝙴𝙲𝚄𝚃𝙴 𝚃𝙷𝙸𝚂 𝚁𝙴𝙿𝙻𝚈!
-handlerEvents.cannotFindCommand=⚠️ 𝙲𝙰𝙽𝙽𝙾𝚃 𝙵𝙸𝙽𝙳 𝙲𝙼𝙳 "%1" 𝚃𝙾 𝙴𝚇𝙴𝙲𝚄𝚃𝙴 𝚃𝙷𝙸𝚂 𝚁𝙴𝙿𝙻𝚈!
+handlerEvents.userBanned= 𝐘𝐨𝐮 𝐡𝐚𝐯𝐞 𝐛𝐞𝐞𝐧 𝐛𝐚𝐧𝐧𝐞𝐝 𝐟𝐫𝐨𝐦 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐛𝐨𝐭\n» 𝐑𝐞𝐚𝐬𝐨𝐧: %1\n» 𝐓𝐢𝐦𝐞: %2\n» 𝐔𝐬𝐞𝐫 𝐈𝐃: %3
+handlerEvents.threadBanned=𝐓𝐡𝐢𝐬 𝐠𝐫𝐨𝐮𝐩 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐛𝐚𝐧𝐧𝐞𝐝 𝐟𝐫𝐨𝐦 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐛𝐨𝐭\n» 𝐑𝐞𝐚𝐬𝐨𝐧: %1\n» 𝐓𝐢𝐦𝐞: %2\n» 𝐓𝐡𝐫𝐞𝐚𝐝 𝐈𝐃: %3
+handlerEvents.onlyAdminBox= 👻|𝐌𝐎𝐃𝐄 only gc admins can use bot.
+handlerEvents.onlyAdminBot=🔐 | 𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐨𝐧𝐥𝐲 𝐛𝐨𝐭 𝐚𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐛𝐨𝐭
+handlerEvents.commandNotFound= 📜| 𝘋𝘌𝘈𝘙 𝘜𝘚𝘌𝘙, 𝘛𝘩𝘦 𝘤𝘮𝘥 ✨%1✨ 𝘵𝘩𝘢𝘵 𝘺𝘦 𝘣𝘦𝘴𝘦𝘦𝘤𝘩 𝘦𝘹𝘪𝘴𝘵𝘴 𝘯𝘰𝘵, 𝘵𝘺𝘱𝘦 %2𝘩𝘦𝘭𝘱 𝘰𝘯𝘤𝘦 𝘮𝘰𝘳𝘦 𝘵𝘰 𝘷𝘪𝘦𝘸 𝘢𝘷𝘢𝘪𝘭𝘢𝘣𝘭𝘦 𝘤𝘮𝘥𝘴
+handlerEvents.commandNotFound2=💀💀ᏰᎧᏖ ᎧᏇᏁᏋᏒ 💀💀\n👽 Lawkey Marvluz\n✘.👻𝐆𝐈𝐓𝐇𝐔𝐁:"github.com/Law-k3y"\n"github.com/DevL4w"─シ\n══━━━━✥◈🤖🍀🤖◈✥━━━━══\n🔗ᖴᗩᑕEᗷOOK/𝐌𝐄𝐒𝐒𝐄𝐍𝐆𝐄𝐑 ᒪIᑎK🔗\nhttps://facebook.com/lord.lawkey,,,m.me/lawk3y.dev\nm.me/sad.lawkey\n\n══━━━━✥◈🤖🍀🤖◈✥━━━━══\n💩| ULTRON ᏰᎧᏖ:\n➣ ✘.ultronite ぐき
+handlerEvents.commandSyntaxError=📜|𝐓𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐢𝐬 𝐰𝐫𝐨𝐧𝐠 𝐬𝐲𝐧𝐭𝐚𝐱, 𝐩𝐥𝐞𝐚𝐬𝐞 𝐭𝐲𝐩𝐞 %1𝐡𝐞𝐥𝐩 %2 𝐭𝐨 𝐬𝐞𝐞 𝐭𝐡𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬 𝐨𝐟 𝐡𝐨𝐰 𝐭𝐨 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝
+handlerEvents.onlyAdmin=🙅 | Group Admin only can access this cmd get tf out bro\n\n Create your own group and feel elevated （〜^∇^)〜 🌿%1🌿 〜(^∇^〜）
+handlerEvents.onlyAdminToUseOnReply=🧏 | Group Admin only can access this cmd get tf out bro\n\n Create your own group and feel elevated （〜^∇^)〜 💦%1💦 〜(^∇^〜）
+handlerEvents.onlyAdminToUseOnReaction=💁| unknown authorisation\nCmd is only for Lawkey's moderator （〜^∇^)〜 ✨%1✨ 〜(^∇^〜）
+handlerEvents.onlyAdminBot2=🧑‍🍼 | This cmd is restricted to users\nSend your facebook detail to Lawkey Marvluz now to access the cmd and have a great chance in becoming my Administrator 𝒕𝒐 𝒖𝒏𝒍𝒐𝒄𝒌 𝒕𝒉𝒆 𝒄𝒎𝒅 （〜^∇^)〜 🍂%1🍂 〜(^∇^〜）
+handlerEvents.onlyAdminBot2ToUseOnReply=🙇| Only Lawkey Marvellous can reply to this function （〜^∇^)〜 🍀%1🍀 〜(^∇^〜）
+handlerEvents.onlyAdminBot2ToUseOnReaction=🧑‍🦯 | 𝑶𝒏𝒍𝒚 𝑳𝒂𝒘𝒌𝒆𝒚 𝑴𝒂𝒓𝒗𝒆𝒍𝒍𝒐𝒖𝒔 𝒄𝒂𝒏 𝒓𝒆𝒂𝒄𝒕 𝒕𝒐 𝒕𝒉𝒆 𝒄𝒎𝒅 （〜^∇^)〜 🍂%1🍂  〜(^∇^〜）
+handlerEvents.waitingForCommand= 🙍...𝘛𝘢𝘩𝘩𝘩 𝘉𝘳𝘰𝘵𝘩𝘦𝘳, 𝘠𝘰𝘶𝘳 𝘴𝘸𝘪𝘧𝘵𝘪𝘯𝘨 𝘵𝘰𝘰 𝘧𝘢𝘴𝘵 𝘧𝘰𝘳 𝘮𝘺 𝘭𝘪𝘬𝘯𝘪𝘯𝘨, 𝘋𝘳𝘰𝘱 𝘺𝘰𝘶𝘳 𝘱𝘩𝘰𝘯𝘦 𝘢𝘯𝘥 𝘳𝘦𝘴𝘵 𝘢 𝘣𝘪𝘵, 𝘴𝘪𝘳, 𝘫𝘶𝘴𝘵 𝘧𝘰𝘳 🎶 %1 𝐬𝐞𝐜 🎶 𝘢𝘯𝘥 𝘺𝘰𝘶 𝘤𝘢𝘯 𝘶𝘴𝘦 𝘵𝘩𝘦 𝘤𝘮𝘥 𝘢𝘨𝘢𝘪𝘯, 𝘵𝘩𝘢𝘯𝘬 𝘺𝘰𝘶\n\nᴄʀᴇᴅɪᴛs:ᴸᴬᵂᴷᴱᵞ ᴹᴬᴿᵛᴱᴸᴸᴼᵁˢ.\\Do not change 🤦
+handlerEvents.errorOccurred=❌ [ %1 ]\nAn error occurred at command "%2"\n\n%3
+handlerEvents.errorOccurred2=❌ [ %1 ]\nAn error occurred at command onChat in command "%2"\n\n%3
+handlerEvents.errorOccurred3=❌ [ %1 ]\nAn error occurred when executing onReply at command "%2"\n\n%3
+handlerEvents.errorOccurred4=❌ [ %1 ]\nAn error occurred when executing onReaction at command "%2"\n\n%3
+handlerEvents.errorOccurred5=❌ [ %1 ]\nAn error occurred when executing onEvent at command "%2"\n\n%3
+handlerEvents.errorOccurred6=❌ [ %1 ]\nAn error occurred when executing onEvent at command "%2"\n\n%3
+handlerEvents.errorOccurred7=❌ [ %1 ]\nAn error occurred when executing onAnyEvent at command "%2"\n\n%3
+handlerEvents.cannotFindCommandName=❌ Cannot find command name to execute this reply!
+handlerEvents.cannotFindCommand=❌ Cannot find command "%1" to execute this reply!
 
 # bot/autoUptime.js
 autoUptime.autoUptimeTurnedOn=AutoUptime mode turned on
+
 # database/controller/index.js
 indexController.connectingMongoDB=Connecting a MONGODB database
 indexController.connectMongoDBSuccess=Successfully connected mongodb database!
@@ -124,7 +125,7 @@ indexController.connectMySQLSuccess=Successfully connected SQLITE database!
 indexController.connectMySQLError=An error occurred while connecting to a SQLITE database:
 
 # updater.js
-updater.updateTooFast=Please wait at least 5 minutes after the latest commit to update without error, %1 minutes %2 seconds left
+updater.updateTooFast=Please wait at least 5 minutes after the latest commit to update without error, %1 minutes %2econds left
 updater.latestVersion=You are using the latest version
 updater.cantFindVersion=You are using an undefined version (%1), please check your package.json file again
 updater.newVersions=There are %1 new versions to update, starting to update...
@@ -139,8 +140,8 @@ updater.skipFile=There is a new version of the %1 file, but you have skipped thi
 # dashboard/routes/verifyfbid.js
 verifyfbid.sendCode=Your verification code is:\n%1\nThe verification code is valid for %2 minutes
 
-# utils.js=
-utils.errorOccurred= An error occurred:\n\n%1
+# utils.js
+utils.errorOccurred=❌ An error occurred:\n\n%1
 
 # for command
 command.restartedBot=Bot has been restarted
