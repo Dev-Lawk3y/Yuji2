@@ -4,8 +4,8 @@ const fs = require("fs");
 const path = require("path");
 
 const W = 490, H = 840;
-const AVATAR1 = "https://i.imgur.com/BqkjjiW.jpeg";
-const AVATAR2 = "https://i.imgur.com/ddb5HOe.jpeg";
+const AVATAR1 = "https://i.imgur.com/9OkSlLC.jpeg";
+const AVATAR2 = "https://i.imgur.com/hp3XVmh.jpeg";
 const FALLBACK_AVATAR = "https://i.ibb.co/MC6bT5V/default-avatar.png"; // fallback if error
 
 function formatUptime(ms) {
@@ -86,9 +86,9 @@ async function drawPage1(ctx) {
   ctx.fillStyle = "#ff99cc";
   ctx.shadowColor = "#ff33aa";
   ctx.shadowBlur = 25;
-  ctx.fillText("Voldigo Zaraki Anos", W / 2, 290);
+  ctx.fillText("Sukuna's vessel → Lawkey ←", W / 2, 290);
 
-  ctx.font = "italic 20px Arial";
+  ctx.font = "italic 20px Impact";
   ctx.fillStyle = "#ff66cc";
   ctx.shadowColor = "#cc3399";
   ctx.shadowBlur = 15;
@@ -104,15 +104,15 @@ async function drawPage1(ctx) {
   ctx.shadowBlur = 12;
   ctx.strokeRect(40, 360, W - 80, 360);
 
-  ctx.font = "22px Arial";
+  ctx.font = "22px Impact";
   ctx.fillStyle = "#f2ccff";
   ctx.shadowColor = "#cc33aa";
   ctx.shadowBlur = 12;
 
   const lines = [
-    "Nickname: VOLDIGO", "Age: 16+", "DOB: 5 novembre 2008",
-    "Gender: Male", "Religion: Chrétien", "Nationality: Ivoirien",
-    "Location: Abidjan, Cocody", "Class: nouveau en première",
+    "Nickname: Lawkey", "Age: 18+", "DOB: 27 January 2___",
+    "Gender: Male", "Religion: Christian", "Nationality: Nigerian",
+    "Location: Akure, Ondo State ", "Class: 100 level",
     `Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Dhaka" })}`
   ];
   let y = 400;
@@ -125,8 +125,8 @@ async function drawPage1(ctx) {
   ctx.fillStyle = "#e673ff";
   ctx.shadowColor = "#ff99ff";
   ctx.shadowBlur = 25;
-  ctx.fillText("🟣 To see Voldigo Bot's system info,", W / 2, H - 55);
-  ctx.fillText("reply to this image with: 2", W / 2, H - 30);
+  ctx.fillText("🪄 To see ‌༒✞༒_Ultron_༒✞༒ Bot's system info,", W / 2, H - 55);
+  ctx.fillText("reply to this image with: owner", W / 2, H - 30);
 }
 
 async function drawPage2(ctx, uptimeMs, ping, users, threads) {
@@ -151,7 +151,7 @@ async function drawPage2(ctx, uptimeMs, ping, users, threads) {
   ctx.fillStyle = "#00e6ff";
   ctx.shadowColor = "#00ffff";
   ctx.shadowBlur = 18;
-  ctx.fillText("Haruka Sakura", W / 2, 270);
+  ctx.fillText("Ryomen Sukuna", W / 2, 270);
 
   ctx.shadowBlur = 0;
   ctx.textAlign = "left";
@@ -221,7 +221,7 @@ module.exports = {
   },
 
   onChat: async function ({ event, message, usersData, threadsData }) {
-    if (event.body?.trim() === "2") {
+    if (event.body?.trim() === "owner") {
       const canvas = createCanvas(W, H);
       const ctx = canvas.getContext("2d");
 
@@ -236,7 +236,7 @@ module.exports = {
       const buffer = canvas.toBuffer("image/png");
       const dir = path.join(__dirname, "cache");
       if (!fs.existsSync(dir)) fs.mkdirSync(dir);
-      const filePath = path.join(dir, `info_reply_2.png`);
+      const filePath = path.join(dir, `info_reply_owner.png`);
       fs.writeFileSync(filePath, buffer);
 
       return message.reply({ attachment: fs.createReadStream(filePath) });
